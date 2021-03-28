@@ -31,6 +31,7 @@ SoftwareType
 			DevTime		6
 			CodeArt		1
 			Submarkets	[ 0; 1; 0 ]
+			Server          0.01
 			Features
 				[
 					{
@@ -50,6 +51,7 @@ SoftwareType
 					Submarkets	0 
 					Script_EndOfDay "/scripts/ADNORMAL.txt"
 					}
+					{
 					Name		"Sponsored ADs"
 					Description	"Porvides a nice source of income per user, but could affect retention."
 					DevTime		4
@@ -57,6 +59,14 @@ SoftwareType
 					CodeArt		1
 					Submarkets	0 
 					Script_EndOfDay "/scripts/ADSPONSORED.txt"
+					}
+					{
+					Name		"Contain environmental messages"
+					Description	"Help spread the word about the environment with text."
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0: 0: 1 ]
 					}
 				]
 			}
@@ -69,6 +79,66 @@ SoftwareType
 			DevTime		4
 			CodeArt		1
 			Submarkets	[ 0; 1; 0 ]
+			Server 		0.005
+			Features
+				[
+					{
+					Name		"Compression"
+					Description	"Reduces amount of internet usage used."
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1: 1: 1 ]
+					Server 		-0.001
+					}
+				]
+			}
+			{
+			Name 		"Art (2D)"
+			Spec		2D
+			Dependencies	"2D Editor"
+			Optional	True
+			Description	"This feature adds imagery, so it looks more like a GUI instead of DOS, which can be used to this day still via emulators."
+			DevTime		6
+			CodeArt		0.5
+			Submarkets	[ 0; 1; 0 ]
+			Server 		0.005
+			Features
+				[
+					{
+					Name		"Compression"
+					Description	"Reduces amount of internet usage used."
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1: 1: 1 ]
+					Server 		-0.001
+					}
+					{
+					Name		"Logo"
+					Description	"Make the search engine look nicer."
+					DevTime		4
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0: 1: 0 ]
+					}
+					{
+					Name		"Buttons"
+					Description	"Make the search engine look nicer and easier to use."
+					DevTime		1
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0: 1: 0 ]
+					}
+					{
+					Name		"Contain environmental imagery"
+					Description	"Help spread the word about the environment."
+					DevTime		3
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0: 0: 1 ]
+					}
+				]
 			}
 		]
 	}
