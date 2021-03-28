@@ -1,6 +1,6 @@
 if (Product.GetVar("ADTRACK", true))
     {
-    var extra = Product.Userbase * 0.95 * 1.22; # Users multiplied by used by multiplied by ad price
+    var extra = Product.Userbase * 0.95 * 1.22; 
     Product.DevCompany.MakeTransaction(extra, Sales, "Tracked AD Payment");
     Product.Userbase = Product.Userbase * 0.992
     Product.AddToCashflow(0, 0, 0, extra, 0, Time);//Add to product income chart
