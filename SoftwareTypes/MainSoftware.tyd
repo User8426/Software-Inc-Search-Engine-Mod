@@ -50,6 +50,14 @@ SoftwareType
 					Submarkets	0 
 					Script_EndOfDay "/scripts/ADNORMAL.txt"
 					}
+					Name		"Sponsored ADs"
+					Description	"Porvides a nice source of income per user, but could affect retention."
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Submarkets	0 
+					Script_EndOfDay "/scripts/ADSPONSORED.txt"
+					}
 				]
 			}
 			{
