@@ -1,7 +1,7 @@
 SoftwareType
 	{
 	Name			"Search Engines"
-	Category		AD Based 
+	Category		"AD Based" 
 	Description		"This is a software type that is basically, Google. Dont understand what a search engine is, Google it. Want to find something on the internet, Google it."
 	Random			0
 	IdealPrice		0
@@ -20,6 +20,7 @@ SoftwareType
 			Retention		36
 			TimeScale		1
 			Iterative		0.4
+			NameGenerator           SoftwareNames
 			}
 		]
 	Features
@@ -67,7 +68,7 @@ SoftwareType
 					Level		3
 					CodeArt		1
 					Submarkets	0 
-					Script_EndOfDay "/scripts/ADTRACKS.txt
+					Script_EndOfDay "/scripts/ADTRACKS.txt"
 					}
 					{
 					Name		"Contain environmental messages"
@@ -75,7 +76,7 @@ SoftwareType
 					DevTime		2
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0: 0: 1 ]
+					Submarkets	[ 0; 0; 1 ]
 					}
 				]
 			}
@@ -97,7 +98,7 @@ SoftwareType
 					DevTime		4
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1: 1: 1 ]
+					Submarkets	[ 1; 1; 1 ]
 					Server 		-0.001
 					}
 				]
@@ -115,12 +116,12 @@ SoftwareType
 			Features
 				[
 					{
-					Name		"Compression"
+					Name		"Art Compression"
 					Description	"Reduces amount of internet usage used."
 					DevTime		4
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1: 1: 1 ]
+					Submarkets	[ 1; 1; 1 ]
 					Server 		-0.001
 					}
 					{
@@ -129,7 +130,7 @@ SoftwareType
 					DevTime		4
 					Level		2
 					CodeArt		0.5
-					Submarkets	[ 0: 1: 0 ]
+					Submarkets	[ 0; 1; 0 ]
 					}
 					{
 					Name		"Buttons"
@@ -137,7 +138,7 @@ SoftwareType
 					DevTime		1
 					Level		2
 					CodeArt		0.5
-					Submarkets	[ 0: 1: 0 ]
+					Submarkets	[ 0; 1; 0 ]
 					}
 					{
 					Name		"Contain environmental imagery"
@@ -145,7 +146,7 @@ SoftwareType
 					DevTime		3
 					Level		2
 					CodeArt		0.5
-					Submarkets	[ 0: 0: 1 ]
+					Submarkets	[ 0; 0; 1 ]
 					}
 				]
 			}
