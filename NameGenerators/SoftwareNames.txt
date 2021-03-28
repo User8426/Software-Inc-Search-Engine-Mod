@@ -1,0 +1,13 @@
+-start(base)
+-base(base2,end,stop)
+Search Engine
+-base2(end,stop)
+ Good Edition
+ ME
+ Great Edition
+ Fun Edition
+ 2000 Edition
+ Surprising Edition
+ Definitely not a virus Edition
+-end(stop)
+.
