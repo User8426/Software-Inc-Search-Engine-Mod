@@ -52,13 +52,22 @@ SoftwareType
 					Script_EndOfDay "/scripts/ADNORMAL.txt"
 					}
 					{
-					Name		"Sponsored ADs"
+					Name		"Annoying ADs"
 					Description	"Porvides a nice source of income per user, but could affect retention."
 					DevTime		4
 					Level		3
 					CodeArt		1
 					Submarkets	0 
 					Script_EndOfDay "/scripts/ADSPONSORED.txt"
+					}
+					{
+					Name		"Tracked ADs"
+					Description	"Porvides a brilliant amount of income per user, but could cause a lawsuit."
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Submarkets	0 
+					Script_EndOfDay "/scripts/ADTRACKS.txt
 					}
 					{
 					Name		"Contain environmental messages"
