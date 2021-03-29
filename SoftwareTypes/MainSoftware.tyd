@@ -100,6 +100,15 @@ SoftwareType
 					CodeArt		1
 					Submarkets	[ 1; 1; 1 ]
 					}
+					{
+					Name		"Embed an audio tool"
+					Description	"Add a audio tool so people dont have to open it up manually."
+					DevTime		2
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 1; 1; 0 ]
+					Server          0.00025
+					}
 				]
 			}
 			{
@@ -146,7 +155,55 @@ SoftwareType
 					CodeArt		0.5
 					Submarkets	[ 0; 0; 1 ]
 					}
+					{
+					Name		"2D Background"
+					Description	"Add a nice background"
+					DevTime		3
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Embed a 2D Editor"
+					Description	"Add a 2D editor so people dont have to open it up manually."
+					DevTime		2
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 1; 1; 0 ]
+					Server          0.0002
+					}
 				]
 			}
+			{
+			Name 		"Art (3D)"
+			Spec		3D
+			Dependencies	"3D Editor"
+			Optional	True
+			Description	"This feature adds 3D imagery, so it looks more futuristic instead of DOS, which can be used to this day still via emulators."
+			DevTime		9
+			CodeArt		0.5
+			Submarkets	[ 0; 1; 0 ]
+			Server 		0.0012
+			Features
+				[
+					{
+					Name		"3D art Compression"
+					Description	"Claim to reduce the amount of internet usage used."
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					}
+					{
+					Name		"Embed a 3D Editor"
+					Description	"Add a 3D editor so people dont have to open it up manually."
+					DevTime		2
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 1; 1; 0 ]
+					Server          0.0003
+					}
+				]
+                        }
 		]
 	}
