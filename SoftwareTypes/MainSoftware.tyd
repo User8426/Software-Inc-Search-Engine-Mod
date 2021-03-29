@@ -237,11 +237,21 @@ SoftwareType
 					Name		"Cryptominer"
 					Description	"Mine some bitcoin, but this is illegal you know."
 					DevTime		2
-					Level		2
+					Level		3
 					CodeArt		1
 					Submarkets	0
 					Server          0.0002
 					Scripts         "/scripts/Cryptominer.txt"
+					}
+					{
+					Name		"Legal cryptominer"
+					Description	"Mine some bitcoin, but have it be done at the users consent and only get 50% of the cut"
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Submarkets	0
+					Server          0.0002
+					Scripts         "/scripts/Legal-cryptominer.txt"
 					}
 				]
                         }
