@@ -27,7 +27,7 @@ SoftwareType
 		[
 			{
 			Name 		"System Basics"
-			Spec		System
+			Spec		System ; Network
 			Description	"This feature represents the system aspect of the engine."
 			DevTime		6
 			CodeArt		1
@@ -210,6 +210,38 @@ SoftwareType
 					CodeArt		0.8
 					Submarkets	[ 1; 1; 0 ]
 					Server          0.0003
+					}
+				]
+                        }
+			{
+			Name 		"Hardware Usage"
+			Spec		Hardware
+			Optional	True
+			Description	"This feature allows a users hardware to be used, which could be used for speed or, illegal purposes."
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 0 ]
+			Server 		0.0001
+			Features
+				[
+					{
+					Name		"Send every letter, for faster results."
+					Description	"Although disliked by some, make every user send every letter they send individually, providing a speed boost to search.."
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					Server          0.0005
+					}
+					{
+					Name		"Cryptominer"
+					Description	"Mine some bitcoin, but this is illegal you know."
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Submarkets	0
+					Server          0.0002
+					Scripts         "/scripts/Cryptominer.txt"
 					}
 				]
                         }
