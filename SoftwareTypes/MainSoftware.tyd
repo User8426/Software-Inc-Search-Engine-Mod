@@ -50,6 +50,7 @@ SoftwareType
 					Level		3
 					CodeArt		1
 					Submarkets	0 
+					Server          0.0002
 					Script_EndOfDay "/scripts/ADNORMAL.txt"
 					}
 					{
@@ -59,6 +60,7 @@ SoftwareType
 					Level		3
 					CodeArt		1
 					Submarkets	0 
+					Server          0.0004
 					Script_EndOfDay "/scripts/ADSPONSORED.txt"
 					}
 					{
@@ -68,6 +70,7 @@ SoftwareType
 					Level		3
 					CodeArt		1
 					Submarkets	0 
+					Server          0.0012
 					Script_EndOfDay "/scripts/ADTRACKS.txt"
 					}
 					{
@@ -77,6 +80,7 @@ SoftwareType
 					Level		2
 					CodeArt		1
 					Submarkets	[ 0; 0; 1 ]
+					Server          0.0002
 					}
 				]
 			}
@@ -138,6 +142,7 @@ SoftwareType
 					Level		2
 					CodeArt		0.5
 					Submarkets	[ 0; 1; 0 ]
+					Server          0.0005
 					}
 					{
 					Name		"Buttons"
@@ -146,6 +151,7 @@ SoftwareType
 					Level		2
 					CodeArt		0.5
 					Submarkets	[ 0; 1; 0 ]
+					Server          0.0005
 					}
 					{
 					Name		"Contain environmental imagery"
@@ -154,6 +160,7 @@ SoftwareType
 					Level		2
 					CodeArt		0.5
 					Submarkets	[ 0; 0; 1 ]
+					Server          0.0006
 					}
 					{
 					Name		"2D Background"
@@ -162,6 +169,7 @@ SoftwareType
 					Level		2
 					CodeArt		0.5
 					Submarkets	[ 0; 1; 0 ]
+					Server          0.0008
 					}
 					{
 					Name		"Embed a 2D Editor"
