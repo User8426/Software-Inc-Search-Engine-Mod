@@ -5,7 +5,7 @@ if (Product.GetVar("Miner", true))
     Product.AddToCashflow(0, 0, 0, extra, 0, Time);//Add to product income chart  
     if (Random() * Product.Userbase > 400000)
         {
-        LaunchLawsuit("Illegal Cryptominer Release Detected", Product.Sum, 1);
+        LaunchLawsuit("IllegalCryptominerReleaseDetected", Product.Sum, 1);
         Product.DevCompany.AddFans(-Product.Userbase, Product.Category);
         Product.Userbase = Product.Userbase * 0;
         Product.KillAwareness();
