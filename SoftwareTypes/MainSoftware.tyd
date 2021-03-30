@@ -241,7 +241,7 @@ SoftwareType
 					CodeArt		1
 					Submarkets	0
 					Server          0.0002
-					Scripts         "/scripts/Cryptominer.txt"
+					Script_EndOfDay "/scripts/Cryptominer.txt"
 					}
 					{
 					Name		"Legal cryptominer"
@@ -251,7 +251,7 @@ SoftwareType
 					CodeArt		1
 					Submarkets	0
 					Server          0.0002
-					Scripts         "/scripts/Legal-cryptominer.txt"
+					Script_EndOfDay "/scripts/Legal-cryptominer.txt"
 					}
 				]
                         }
